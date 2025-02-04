@@ -1,0 +1,21 @@
+[2025-02-04T21:20:38.471+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-04T21:20:38.491+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_que_faire_a_paris.extract_data scheduled__2025-02-03T00:00:00+00:00 [queued]>
+[2025-02-04T21:20:38.500+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_que_faire_a_paris.extract_data scheduled__2025-02-03T00:00:00+00:00 [queued]>
+[2025-02-04T21:20:38.501+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2025-02-04T21:20:38.516+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): extract_data> on 2025-02-03 00:00:00+00:00
+[2025-02-04T21:20:38.522+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=115) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-02-04T21:20:38.524+0000] {standard_task_runner.py:72} INFO - Started process 117 to run task
+[2025-02-04T21:20:38.525+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'etl_que_faire_a_paris', 'extract_data', 'scheduled__2025-02-03T00:00:00+00:00', '--job-id', '40', '--raw', '--subdir', 'DAGS_FOLDER/dag_que_faire_a_paris.py', '--cfg-path', '/tmp/tmp2lxzk8rd']
+[2025-02-04T21:20:38.639+0000] {standard_task_runner.py:105} INFO - Job 40: Subtask extract_data
+[2025-02-04T21:20:38.668+0000] {task_command.py:467} INFO - Running <TaskInstance: etl_que_faire_a_paris.extract_data scheduled__2025-02-03T00:00:00+00:00 [running]> on host ed2435b8d4d0
+[2025-02-04T21:20:38.708+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='etl_que_faire_a_paris' AIRFLOW_CTX_TASK_ID='extract_data' AIRFLOW_CTX_EXECUTION_DATE='2025-02-03T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-02-03T00:00:00+00:00'
+[2025-02-04T21:20:38.710+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-02-04T21:20:41.376+0000] {dag_que_faire_a_paris.py:36} INFO - Extraction completed successfully!
+[2025-02-04T21:20:41.378+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-02-04T21:20:41.383+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-02-04T21:20:41.384+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=etl_que_faire_a_paris, task_id=extract_data, run_id=scheduled__2025-02-03T00:00:00+00:00, execution_date=20250203T000000, start_date=20250204T212038, end_date=20250204T212041
+[2025-02-04T21:20:41.430+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-02-04T21:20:41.577+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-02-04T21:20:41.583+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

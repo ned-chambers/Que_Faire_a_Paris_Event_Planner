@@ -1,0 +1,21 @@
+[2025-02-04T22:06:01.806+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-04T22:06:01.827+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_que_faire_a_paris.transform_data manual__2025-02-04T22:05:57.719723+00:00 [queued]>
+[2025-02-04T22:06:01.842+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_que_faire_a_paris.transform_data manual__2025-02-04T22:05:57.719723+00:00 [queued]>
+[2025-02-04T22:06:01.844+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-02-04T22:06:01.861+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): transform_data> on 2025-02-04 22:05:57.719723+00:00
+[2025-02-04T22:06:01.867+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=98) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-02-04T22:06:01.869+0000] {standard_task_runner.py:72} INFO - Started process 100 to run task
+[2025-02-04T22:06:01.869+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'etl_que_faire_a_paris', 'transform_data', 'manual__2025-02-04T22:05:57.719723+00:00', '--job-id', '61', '--raw', '--subdir', 'DAGS_FOLDER/dag_que_faire_a_paris.py', '--cfg-path', '/tmp/tmp42s91xl1']
+[2025-02-04T22:06:01.872+0000] {standard_task_runner.py:105} INFO - Job 61: Subtask transform_data
+[2025-02-04T22:06:01.949+0000] {task_command.py:467} INFO - Running <TaskInstance: etl_que_faire_a_paris.transform_data manual__2025-02-04T22:05:57.719723+00:00 [running]> on host d79180ab324d
+[2025-02-04T22:06:02.127+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='etl_que_faire_a_paris' AIRFLOW_CTX_TASK_ID='transform_data' AIRFLOW_CTX_EXECUTION_DATE='2025-02-04T22:05:57.719723+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-04T22:05:57.719723+00:00'
+[2025-02-04T22:06:02.131+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-02-04T22:06:02.327+0000] {dag_que_faire_a_paris.py:127} INFO - ✅ Transformation completed successfully!
+[2025-02-04T22:06:02.332+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-02-04T22:06:02.341+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-02-04T22:06:02.352+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=etl_que_faire_a_paris, task_id=transform_data, run_id=manual__2025-02-04T22:05:57.719723+00:00, execution_date=20250204T220557, start_date=20250204T220601, end_date=20250204T220602
+[2025-02-04T22:06:02.406+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-02-04T22:06:02.427+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-02-04T22:06:02.435+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
