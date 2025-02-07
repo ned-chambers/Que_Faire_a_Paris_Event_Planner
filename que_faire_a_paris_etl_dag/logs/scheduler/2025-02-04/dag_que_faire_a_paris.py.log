@@ -1049,3 +1049,325 @@
 [2025-02-04T22:21:37.104+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:21:37.104+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-02-04T22:21:37.120+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:21:37.120+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_que_faire_a_paris to 2025-02-04 00:00:00+00:00, run_after=2025-02-05 00:00:00+00:00
 [2025-02-04T22:21:37.139+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_que_faire_a_paris.py took 0.287 seconds
+[2025-02-04T22:22:07.265+0000] {processor.py:186} INFO - Started process (PID=336) to work on /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:22:07.266+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_que_faire_a_paris.py for tasks to queue
+[2025-02-04T22:22:07.269+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:22:07.269+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:22:07.516+0000] {processor.py:925} INFO - DAG(s) 'etl_que_faire_a_paris' retrieved from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:22:07.529+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:22:07.528+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T22:22:07.540+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:22:07.540+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_que_faire_a_paris to 2025-02-04 00:00:00+00:00, run_after=2025-02-05 00:00:00+00:00
+[2025-02-04T22:22:07.554+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_que_faire_a_paris.py took 0.297 seconds
+[2025-02-04T22:22:37.860+0000] {processor.py:186} INFO - Started process (PID=344) to work on /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:22:37.861+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_que_faire_a_paris.py for tasks to queue
+[2025-02-04T22:22:37.863+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:22:37.862+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:22:38.137+0000] {processor.py:925} INFO - DAG(s) 'etl_que_faire_a_paris' retrieved from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:22:38.154+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:22:38.154+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T22:22:38.168+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:22:38.168+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_que_faire_a_paris to 2025-02-04 00:00:00+00:00, run_after=2025-02-05 00:00:00+00:00
+[2025-02-04T22:22:38.197+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_que_faire_a_paris.py took 0.340 seconds
+[2025-02-04T22:23:08.546+0000] {processor.py:186} INFO - Started process (PID=352) to work on /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:23:08.547+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_que_faire_a_paris.py for tasks to queue
+[2025-02-04T22:23:08.549+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:23:08.549+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:23:08.795+0000] {processor.py:925} INFO - DAG(s) 'etl_que_faire_a_paris' retrieved from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:23:08.812+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:23:08.812+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T22:23:08.826+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:23:08.826+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_que_faire_a_paris to 2025-02-04 00:00:00+00:00, run_after=2025-02-05 00:00:00+00:00
+[2025-02-04T22:23:08.839+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_que_faire_a_paris.py took 0.299 seconds
+[2025-02-04T22:23:39.164+0000] {processor.py:186} INFO - Started process (PID=360) to work on /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:23:39.165+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_que_faire_a_paris.py for tasks to queue
+[2025-02-04T22:23:39.167+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:23:39.167+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:23:39.428+0000] {processor.py:925} INFO - DAG(s) 'etl_que_faire_a_paris' retrieved from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:23:39.449+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:23:39.449+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T22:23:39.471+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:23:39.470+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_que_faire_a_paris to 2025-02-04 00:00:00+00:00, run_after=2025-02-05 00:00:00+00:00
+[2025-02-04T22:23:39.500+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_que_faire_a_paris.py took 0.344 seconds
+[2025-02-04T22:24:09.867+0000] {processor.py:186} INFO - Started process (PID=368) to work on /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:24:09.869+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_que_faire_a_paris.py for tasks to queue
+[2025-02-04T22:24:09.872+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:24:09.871+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:24:10.153+0000] {processor.py:925} INFO - DAG(s) 'etl_que_faire_a_paris' retrieved from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:24:10.173+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:24:10.173+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T22:24:10.186+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:24:10.186+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_que_faire_a_paris to 2025-02-04 00:00:00+00:00, run_after=2025-02-05 00:00:00+00:00
+[2025-02-04T22:24:10.211+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_que_faire_a_paris.py took 0.350 seconds
+[2025-02-04T22:24:40.648+0000] {processor.py:186} INFO - Started process (PID=376) to work on /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:24:40.649+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_que_faire_a_paris.py for tasks to queue
+[2025-02-04T22:24:40.651+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:24:40.651+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:24:40.853+0000] {processor.py:925} INFO - DAG(s) 'etl_que_faire_a_paris' retrieved from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:24:40.877+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:24:40.877+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T22:24:40.910+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:24:40.910+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_que_faire_a_paris to 2025-02-04 00:00:00+00:00, run_after=2025-02-05 00:00:00+00:00
+[2025-02-04T22:24:40.931+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_que_faire_a_paris.py took 0.287 seconds
+[2025-02-04T22:25:11.237+0000] {processor.py:186} INFO - Started process (PID=384) to work on /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:25:11.238+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_que_faire_a_paris.py for tasks to queue
+[2025-02-04T22:25:11.239+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:25:11.239+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:25:11.510+0000] {processor.py:925} INFO - DAG(s) 'etl_que_faire_a_paris' retrieved from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:25:11.526+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:25:11.525+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T22:25:11.540+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:25:11.540+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_que_faire_a_paris to 2025-02-04 00:00:00+00:00, run_after=2025-02-05 00:00:00+00:00
+[2025-02-04T22:25:11.552+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_que_faire_a_paris.py took 0.319 seconds
+[2025-02-04T22:25:41.903+0000] {processor.py:186} INFO - Started process (PID=392) to work on /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:25:41.904+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_que_faire_a_paris.py for tasks to queue
+[2025-02-04T22:25:41.906+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:25:41.906+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:25:42.099+0000] {processor.py:925} INFO - DAG(s) 'etl_que_faire_a_paris' retrieved from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:25:42.117+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:25:42.116+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T22:25:42.132+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:25:42.132+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_que_faire_a_paris to 2025-02-04 00:00:00+00:00, run_after=2025-02-05 00:00:00+00:00
+[2025-02-04T22:25:42.155+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_que_faire_a_paris.py took 0.256 seconds
+[2025-02-04T22:45:10.458+0000] {processor.py:186} INFO - Started process (PID=400) to work on /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:45:10.459+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_que_faire_a_paris.py for tasks to queue
+[2025-02-04T22:45:10.461+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:45:10.461+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:45:10.757+0000] {processor.py:925} INFO - DAG(s) 'etl_que_faire_a_paris' retrieved from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:45:10.778+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:45:10.778+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T22:45:10.800+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:45:10.800+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_que_faire_a_paris to 2025-02-04 00:00:00+00:00, run_after=2025-02-05 00:00:00+00:00
+[2025-02-04T22:45:10.815+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_que_faire_a_paris.py took 0.363 seconds
+[2025-02-04T22:45:40.999+0000] {processor.py:186} INFO - Started process (PID=408) to work on /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:45:41.000+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_que_faire_a_paris.py for tasks to queue
+[2025-02-04T22:45:41.001+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:45:41.001+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:45:41.193+0000] {processor.py:925} INFO - DAG(s) 'etl_que_faire_a_paris' retrieved from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:45:41.210+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:45:41.210+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T22:45:41.224+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:45:41.224+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_que_faire_a_paris to 2025-02-04 00:00:00+00:00, run_after=2025-02-05 00:00:00+00:00
+[2025-02-04T22:45:41.250+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_que_faire_a_paris.py took 0.255 seconds
+[2025-02-04T22:46:11.463+0000] {processor.py:186} INFO - Started process (PID=416) to work on /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:46:11.463+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_que_faire_a_paris.py for tasks to queue
+[2025-02-04T22:46:11.465+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:46:11.465+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:46:11.646+0000] {processor.py:925} INFO - DAG(s) 'etl_que_faire_a_paris' retrieved from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:46:11.659+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:46:11.659+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T22:46:11.672+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:46:11.672+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_que_faire_a_paris to 2025-02-04 00:00:00+00:00, run_after=2025-02-05 00:00:00+00:00
+[2025-02-04T22:46:11.685+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_que_faire_a_paris.py took 0.227 seconds
+[2025-02-04T22:46:41.908+0000] {processor.py:186} INFO - Started process (PID=424) to work on /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:46:41.909+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_que_faire_a_paris.py for tasks to queue
+[2025-02-04T22:46:41.910+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:46:41.910+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:46:42.111+0000] {processor.py:925} INFO - DAG(s) 'etl_que_faire_a_paris' retrieved from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:46:42.123+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:46:42.123+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T22:46:42.135+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:46:42.135+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_que_faire_a_paris to 2025-02-04 00:00:00+00:00, run_after=2025-02-05 00:00:00+00:00
+[2025-02-04T22:46:42.159+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_que_faire_a_paris.py took 0.257 seconds
+[2025-02-04T22:47:12.493+0000] {processor.py:186} INFO - Started process (PID=432) to work on /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:47:12.494+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_que_faire_a_paris.py for tasks to queue
+[2025-02-04T22:47:12.496+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:47:12.495+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:47:12.685+0000] {processor.py:925} INFO - DAG(s) 'etl_que_faire_a_paris' retrieved from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:47:12.700+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:47:12.700+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T22:47:12.713+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:47:12.713+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_que_faire_a_paris to 2025-02-04 00:00:00+00:00, run_after=2025-02-05 00:00:00+00:00
+[2025-02-04T22:47:12.727+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_que_faire_a_paris.py took 0.240 seconds
+[2025-02-04T22:47:42.875+0000] {processor.py:186} INFO - Started process (PID=440) to work on /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:47:42.877+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_que_faire_a_paris.py for tasks to queue
+[2025-02-04T22:47:42.881+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:47:42.881+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:47:43.180+0000] {processor.py:925} INFO - DAG(s) 'etl_que_faire_a_paris' retrieved from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:47:43.196+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:47:43.196+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T22:47:43.211+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:47:43.211+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_que_faire_a_paris to 2025-02-04 00:00:00+00:00, run_after=2025-02-05 00:00:00+00:00
+[2025-02-04T22:47:43.243+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_que_faire_a_paris.py took 0.373 seconds
+[2025-02-04T22:48:13.353+0000] {processor.py:186} INFO - Started process (PID=448) to work on /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:48:13.354+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_que_faire_a_paris.py for tasks to queue
+[2025-02-04T22:48:13.357+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:48:13.357+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:48:13.566+0000] {processor.py:925} INFO - DAG(s) 'etl_que_faire_a_paris' retrieved from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:48:13.584+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:48:13.584+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T22:48:13.598+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:48:13.598+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_que_faire_a_paris to 2025-02-04 00:00:00+00:00, run_after=2025-02-05 00:00:00+00:00
+[2025-02-04T22:48:13.621+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_que_faire_a_paris.py took 0.276 seconds
+[2025-02-04T22:48:43.848+0000] {processor.py:186} INFO - Started process (PID=456) to work on /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:48:43.849+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_que_faire_a_paris.py for tasks to queue
+[2025-02-04T22:48:43.851+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:48:43.851+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:48:44.040+0000] {processor.py:925} INFO - DAG(s) 'etl_que_faire_a_paris' retrieved from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:48:44.062+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:48:44.062+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T22:48:44.083+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:48:44.083+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_que_faire_a_paris to 2025-02-04 00:00:00+00:00, run_after=2025-02-05 00:00:00+00:00
+[2025-02-04T22:48:44.107+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_que_faire_a_paris.py took 0.263 seconds
+[2025-02-04T22:49:14.246+0000] {processor.py:186} INFO - Started process (PID=464) to work on /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:49:14.246+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_que_faire_a_paris.py for tasks to queue
+[2025-02-04T22:49:14.248+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:49:14.247+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:49:14.448+0000] {processor.py:925} INFO - DAG(s) 'etl_que_faire_a_paris' retrieved from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:49:14.461+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:49:14.461+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T22:49:14.473+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:49:14.473+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_que_faire_a_paris to 2025-02-04 00:00:00+00:00, run_after=2025-02-05 00:00:00+00:00
+[2025-02-04T22:49:14.497+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_que_faire_a_paris.py took 0.255 seconds
+[2025-02-04T22:49:44.733+0000] {processor.py:186} INFO - Started process (PID=472) to work on /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:49:44.734+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_que_faire_a_paris.py for tasks to queue
+[2025-02-04T22:49:44.737+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:49:44.737+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:49:44.934+0000] {processor.py:925} INFO - DAG(s) 'etl_que_faire_a_paris' retrieved from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:49:44.947+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:49:44.947+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T22:49:44.959+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:49:44.959+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_que_faire_a_paris to 2025-02-04 00:00:00+00:00, run_after=2025-02-05 00:00:00+00:00
+[2025-02-04T22:49:44.986+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_que_faire_a_paris.py took 0.261 seconds
+[2025-02-04T22:50:15.139+0000] {processor.py:186} INFO - Started process (PID=480) to work on /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:50:15.140+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_que_faire_a_paris.py for tasks to queue
+[2025-02-04T22:50:15.142+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:50:15.141+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:50:15.324+0000] {processor.py:925} INFO - DAG(s) 'etl_que_faire_a_paris' retrieved from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:50:15.338+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:50:15.338+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T22:50:15.353+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:50:15.353+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_que_faire_a_paris to 2025-02-04 00:00:00+00:00, run_after=2025-02-05 00:00:00+00:00
+[2025-02-04T22:50:15.369+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_que_faire_a_paris.py took 0.233 seconds
+[2025-02-04T22:50:45.627+0000] {processor.py:186} INFO - Started process (PID=488) to work on /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:50:45.628+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_que_faire_a_paris.py for tasks to queue
+[2025-02-04T22:50:45.632+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:50:45.632+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:50:45.841+0000] {processor.py:925} INFO - DAG(s) 'etl_que_faire_a_paris' retrieved from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:50:45.855+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:50:45.855+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T22:50:45.868+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:50:45.868+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_que_faire_a_paris to 2025-02-04 00:00:00+00:00, run_after=2025-02-05 00:00:00+00:00
+[2025-02-04T22:50:45.880+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_que_faire_a_paris.py took 0.261 seconds
+[2025-02-04T22:51:16.021+0000] {processor.py:186} INFO - Started process (PID=496) to work on /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:51:16.023+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_que_faire_a_paris.py for tasks to queue
+[2025-02-04T22:51:16.025+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:51:16.025+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:51:16.287+0000] {processor.py:925} INFO - DAG(s) 'etl_que_faire_a_paris' retrieved from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:51:16.302+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:51:16.302+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T22:51:16.319+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:51:16.319+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_que_faire_a_paris to 2025-02-04 00:00:00+00:00, run_after=2025-02-05 00:00:00+00:00
+[2025-02-04T22:51:16.340+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_que_faire_a_paris.py took 0.326 seconds
+[2025-02-04T22:51:46.521+0000] {processor.py:186} INFO - Started process (PID=505) to work on /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:51:46.522+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_que_faire_a_paris.py for tasks to queue
+[2025-02-04T22:51:46.525+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:51:46.524+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:51:46.744+0000] {processor.py:925} INFO - DAG(s) 'etl_que_faire_a_paris' retrieved from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:51:46.757+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:51:46.757+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T22:51:46.771+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:51:46.771+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_que_faire_a_paris to 2025-02-04 00:00:00+00:00, run_after=2025-02-05 00:00:00+00:00
+[2025-02-04T22:51:46.797+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_que_faire_a_paris.py took 0.281 seconds
+[2025-02-04T22:52:16.963+0000] {processor.py:186} INFO - Started process (PID=513) to work on /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:52:16.964+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_que_faire_a_paris.py for tasks to queue
+[2025-02-04T22:52:16.965+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:52:16.965+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:52:17.184+0000] {processor.py:925} INFO - DAG(s) 'etl_que_faire_a_paris' retrieved from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:52:17.199+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:52:17.198+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T22:52:17.212+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:52:17.212+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_que_faire_a_paris to 2025-02-04 00:00:00+00:00, run_after=2025-02-05 00:00:00+00:00
+[2025-02-04T22:52:17.236+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_que_faire_a_paris.py took 0.276 seconds
+[2025-02-04T22:52:47.403+0000] {processor.py:186} INFO - Started process (PID=522) to work on /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:52:47.405+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_que_faire_a_paris.py for tasks to queue
+[2025-02-04T22:52:47.408+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:52:47.407+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:52:47.624+0000] {processor.py:925} INFO - DAG(s) 'etl_que_faire_a_paris' retrieved from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:52:47.638+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:52:47.638+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T22:52:47.651+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:52:47.650+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_que_faire_a_paris to 2025-02-04 00:00:00+00:00, run_after=2025-02-05 00:00:00+00:00
+[2025-02-04T22:52:47.674+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_que_faire_a_paris.py took 0.278 seconds
+[2025-02-04T22:53:17.883+0000] {processor.py:186} INFO - Started process (PID=529) to work on /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:53:17.884+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_que_faire_a_paris.py for tasks to queue
+[2025-02-04T22:53:17.886+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:53:17.886+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:53:18.083+0000] {processor.py:925} INFO - DAG(s) 'etl_que_faire_a_paris' retrieved from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:53:18.097+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:53:18.097+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T22:53:18.112+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:53:18.112+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_que_faire_a_paris to 2025-02-04 00:00:00+00:00, run_after=2025-02-05 00:00:00+00:00
+[2025-02-04T22:53:18.140+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_que_faire_a_paris.py took 0.263 seconds
+[2025-02-04T22:53:48.285+0000] {processor.py:186} INFO - Started process (PID=537) to work on /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:53:48.286+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_que_faire_a_paris.py for tasks to queue
+[2025-02-04T22:53:48.288+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:53:48.288+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:53:48.498+0000] {processor.py:925} INFO - DAG(s) 'etl_que_faire_a_paris' retrieved from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:53:48.513+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:53:48.513+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T22:53:48.527+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:53:48.527+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_que_faire_a_paris to 2025-02-04 00:00:00+00:00, run_after=2025-02-05 00:00:00+00:00
+[2025-02-04T22:53:48.551+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_que_faire_a_paris.py took 0.274 seconds
+[2025-02-04T22:54:18.778+0000] {processor.py:186} INFO - Started process (PID=545) to work on /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:54:18.779+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_que_faire_a_paris.py for tasks to queue
+[2025-02-04T22:54:18.782+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:54:18.781+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:54:18.987+0000] {processor.py:925} INFO - DAG(s) 'etl_que_faire_a_paris' retrieved from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:54:19.000+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:54:19.000+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T22:54:19.026+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:54:19.026+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_que_faire_a_paris to 2025-02-04 00:00:00+00:00, run_after=2025-02-05 00:00:00+00:00
+[2025-02-04T22:54:19.079+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_que_faire_a_paris.py took 0.308 seconds
+[2025-02-04T22:54:49.181+0000] {processor.py:186} INFO - Started process (PID=553) to work on /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:54:49.182+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_que_faire_a_paris.py for tasks to queue
+[2025-02-04T22:54:49.184+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:54:49.183+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:54:49.370+0000] {processor.py:925} INFO - DAG(s) 'etl_que_faire_a_paris' retrieved from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:54:49.387+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:54:49.386+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T22:54:49.401+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:54:49.400+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_que_faire_a_paris to 2025-02-04 00:00:00+00:00, run_after=2025-02-05 00:00:00+00:00
+[2025-02-04T22:54:49.415+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_que_faire_a_paris.py took 0.240 seconds
+[2025-02-04T22:55:19.553+0000] {processor.py:186} INFO - Started process (PID=561) to work on /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:55:19.554+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_que_faire_a_paris.py for tasks to queue
+[2025-02-04T22:55:19.556+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:55:19.555+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:55:19.739+0000] {processor.py:925} INFO - DAG(s) 'etl_que_faire_a_paris' retrieved from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:55:19.752+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:55:19.751+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T22:55:19.763+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:55:19.763+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_que_faire_a_paris to 2025-02-04 00:00:00+00:00, run_after=2025-02-05 00:00:00+00:00
+[2025-02-04T22:55:19.775+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_que_faire_a_paris.py took 0.228 seconds
+[2025-02-04T22:55:50.004+0000] {processor.py:186} INFO - Started process (PID=569) to work on /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:55:50.005+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_que_faire_a_paris.py for tasks to queue
+[2025-02-04T22:55:50.007+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:55:50.007+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:55:50.200+0000] {processor.py:925} INFO - DAG(s) 'etl_que_faire_a_paris' retrieved from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:55:50.212+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:55:50.212+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T22:55:50.224+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:55:50.224+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_que_faire_a_paris to 2025-02-04 00:00:00+00:00, run_after=2025-02-05 00:00:00+00:00
+[2025-02-04T22:55:50.247+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_que_faire_a_paris.py took 0.247 seconds
+[2025-02-04T22:56:20.390+0000] {processor.py:186} INFO - Started process (PID=577) to work on /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:56:20.391+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_que_faire_a_paris.py for tasks to queue
+[2025-02-04T22:56:20.394+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:56:20.394+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:56:20.628+0000] {processor.py:925} INFO - DAG(s) 'etl_que_faire_a_paris' retrieved from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:56:20.643+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:56:20.643+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T22:56:20.656+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:56:20.656+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_que_faire_a_paris to 2025-02-04 00:00:00+00:00, run_after=2025-02-05 00:00:00+00:00
+[2025-02-04T22:56:20.683+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_que_faire_a_paris.py took 0.299 seconds
+[2025-02-04T22:56:50.845+0000] {processor.py:186} INFO - Started process (PID=585) to work on /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:56:50.845+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_que_faire_a_paris.py for tasks to queue
+[2025-02-04T22:56:50.847+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:56:50.847+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:56:51.035+0000] {processor.py:925} INFO - DAG(s) 'etl_que_faire_a_paris' retrieved from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:56:51.049+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:56:51.049+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T22:56:51.063+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:56:51.062+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_que_faire_a_paris to 2025-02-04 00:00:00+00:00, run_after=2025-02-05 00:00:00+00:00
+[2025-02-04T22:56:51.091+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_que_faire_a_paris.py took 0.252 seconds
+[2025-02-04T22:57:21.326+0000] {processor.py:186} INFO - Started process (PID=593) to work on /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:57:21.326+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_que_faire_a_paris.py for tasks to queue
+[2025-02-04T22:57:21.328+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:57:21.328+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:57:21.514+0000] {processor.py:925} INFO - DAG(s) 'etl_que_faire_a_paris' retrieved from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:57:21.527+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:57:21.527+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T22:57:21.540+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:57:21.540+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_que_faire_a_paris to 2025-02-04 00:00:00+00:00, run_after=2025-02-05 00:00:00+00:00
+[2025-02-04T22:57:21.565+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_que_faire_a_paris.py took 0.245 seconds
+[2025-02-04T22:57:51.751+0000] {processor.py:186} INFO - Started process (PID=601) to work on /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:57:51.752+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_que_faire_a_paris.py for tasks to queue
+[2025-02-04T22:57:51.754+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:57:51.754+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:57:51.997+0000] {processor.py:925} INFO - DAG(s) 'etl_que_faire_a_paris' retrieved from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:57:52.013+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:57:52.012+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T22:57:52.038+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:57:52.037+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_que_faire_a_paris to 2025-02-04 00:00:00+00:00, run_after=2025-02-05 00:00:00+00:00
+[2025-02-04T22:57:52.074+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_que_faire_a_paris.py took 0.330 seconds
+[2025-02-04T22:58:22.264+0000] {processor.py:186} INFO - Started process (PID=609) to work on /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:58:22.268+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_que_faire_a_paris.py for tasks to queue
+[2025-02-04T22:58:22.273+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:58:22.273+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:58:22.490+0000] {processor.py:925} INFO - DAG(s) 'etl_que_faire_a_paris' retrieved from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:58:22.505+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:58:22.505+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T22:58:22.518+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:58:22.517+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_que_faire_a_paris to 2025-02-04 00:00:00+00:00, run_after=2025-02-05 00:00:00+00:00
+[2025-02-04T22:58:22.535+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_que_faire_a_paris.py took 0.274 seconds
+[2025-02-04T22:58:52.811+0000] {processor.py:186} INFO - Started process (PID=617) to work on /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:58:52.812+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_que_faire_a_paris.py for tasks to queue
+[2025-02-04T22:58:52.814+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:58:52.813+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:58:53.008+0000] {processor.py:925} INFO - DAG(s) 'etl_que_faire_a_paris' retrieved from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:58:53.023+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:58:53.023+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T22:58:53.038+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:58:53.038+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_que_faire_a_paris to 2025-02-04 00:00:00+00:00, run_after=2025-02-05 00:00:00+00:00
+[2025-02-04T22:58:53.061+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_que_faire_a_paris.py took 0.253 seconds
+[2025-02-04T22:59:23.120+0000] {processor.py:186} INFO - Started process (PID=625) to work on /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:59:23.122+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_que_faire_a_paris.py for tasks to queue
+[2025-02-04T22:59:23.126+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:59:23.125+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:59:23.336+0000] {processor.py:925} INFO - DAG(s) 'etl_que_faire_a_paris' retrieved from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:59:23.351+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:59:23.350+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T22:59:23.364+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:59:23.364+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_que_faire_a_paris to 2025-02-04 00:00:00+00:00, run_after=2025-02-05 00:00:00+00:00
+[2025-02-04T22:59:23.388+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_que_faire_a_paris.py took 0.277 seconds
+[2025-02-04T22:59:53.698+0000] {processor.py:186} INFO - Started process (PID=633) to work on /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:59:53.699+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_que_faire_a_paris.py for tasks to queue
+[2025-02-04T22:59:53.701+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:59:53.700+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:59:53.946+0000] {processor.py:925} INFO - DAG(s) 'etl_que_faire_a_paris' retrieved from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T22:59:53.961+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:59:53.961+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T22:59:53.976+0000] {logging_mixin.py:190} INFO - [2025-02-04T22:59:53.976+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_que_faire_a_paris to 2025-02-04 00:00:00+00:00, run_after=2025-02-05 00:00:00+00:00
+[2025-02-04T22:59:54.005+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_que_faire_a_paris.py took 0.312 seconds
+[2025-02-04T23:00:24.059+0000] {processor.py:186} INFO - Started process (PID=641) to work on /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T23:00:24.060+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_que_faire_a_paris.py for tasks to queue
+[2025-02-04T23:00:24.061+0000] {logging_mixin.py:190} INFO - [2025-02-04T23:00:24.061+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T23:00:24.240+0000] {processor.py:925} INFO - DAG(s) 'etl_que_faire_a_paris' retrieved from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T23:00:24.255+0000] {logging_mixin.py:190} INFO - [2025-02-04T23:00:24.255+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T23:00:24.270+0000] {logging_mixin.py:190} INFO - [2025-02-04T23:00:24.269+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_que_faire_a_paris to 2025-02-04 00:00:00+00:00, run_after=2025-02-05 00:00:00+00:00
+[2025-02-04T23:00:24.292+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_que_faire_a_paris.py took 0.236 seconds
+[2025-02-04T23:00:54.653+0000] {processor.py:186} INFO - Started process (PID=649) to work on /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T23:00:54.655+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_que_faire_a_paris.py for tasks to queue
+[2025-02-04T23:00:54.663+0000] {logging_mixin.py:190} INFO - [2025-02-04T23:00:54.663+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T23:00:55.230+0000] {processor.py:925} INFO - DAG(s) 'etl_que_faire_a_paris' retrieved from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T23:00:55.252+0000] {logging_mixin.py:190} INFO - [2025-02-04T23:00:55.251+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T23:00:55.264+0000] {logging_mixin.py:190} INFO - [2025-02-04T23:00:55.264+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_que_faire_a_paris to 2025-02-04 00:00:00+00:00, run_after=2025-02-05 00:00:00+00:00
+[2025-02-04T23:00:55.322+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_que_faire_a_paris.py took 0.673 seconds
+[2025-02-04T23:01:26.194+0000] {processor.py:186} INFO - Started process (PID=657) to work on /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T23:01:26.204+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_que_faire_a_paris.py for tasks to queue
+[2025-02-04T23:01:26.210+0000] {logging_mixin.py:190} INFO - [2025-02-04T23:01:26.209+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T23:01:26.704+0000] {processor.py:925} INFO - DAG(s) 'etl_que_faire_a_paris' retrieved from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T23:01:26.721+0000] {logging_mixin.py:190} INFO - [2025-02-04T23:01:26.721+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T23:01:26.735+0000] {logging_mixin.py:190} INFO - [2025-02-04T23:01:26.735+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_que_faire_a_paris to 2025-02-04 00:00:00+00:00, run_after=2025-02-05 00:00:00+00:00
+[2025-02-04T23:01:26.772+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_que_faire_a_paris.py took 0.582 seconds
+[2025-02-04T23:01:56.918+0000] {processor.py:186} INFO - Started process (PID=665) to work on /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T23:01:56.920+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_que_faire_a_paris.py for tasks to queue
+[2025-02-04T23:01:56.924+0000] {logging_mixin.py:190} INFO - [2025-02-04T23:01:56.923+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T23:01:57.271+0000] {processor.py:925} INFO - DAG(s) 'etl_que_faire_a_paris' retrieved from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T23:01:57.286+0000] {logging_mixin.py:190} INFO - [2025-02-04T23:01:57.286+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T23:01:57.298+0000] {logging_mixin.py:190} INFO - [2025-02-04T23:01:57.298+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_que_faire_a_paris to 2025-02-04 00:00:00+00:00, run_after=2025-02-05 00:00:00+00:00
+[2025-02-04T23:01:57.311+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_que_faire_a_paris.py took 0.398 seconds
+[2025-02-04T23:02:28.293+0000] {processor.py:186} INFO - Started process (PID=673) to work on /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T23:02:28.300+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_que_faire_a_paris.py for tasks to queue
+[2025-02-04T23:02:28.301+0000] {logging_mixin.py:190} INFO - [2025-02-04T23:02:28.301+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T23:02:28.807+0000] {processor.py:925} INFO - DAG(s) 'etl_que_faire_a_paris' retrieved from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T23:02:28.830+0000] {logging_mixin.py:190} INFO - [2025-02-04T23:02:28.830+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T23:02:28.848+0000] {logging_mixin.py:190} INFO - [2025-02-04T23:02:28.848+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_que_faire_a_paris to 2025-02-04 00:00:00+00:00, run_after=2025-02-05 00:00:00+00:00
+[2025-02-04T23:02:28.886+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_que_faire_a_paris.py took 0.599 seconds
+[2025-02-04T23:02:59.751+0000] {processor.py:186} INFO - Started process (PID=681) to work on /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T23:02:59.752+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_que_faire_a_paris.py for tasks to queue
+[2025-02-04T23:02:59.754+0000] {logging_mixin.py:190} INFO - [2025-02-04T23:02:59.754+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T23:03:00.066+0000] {processor.py:925} INFO - DAG(s) 'etl_que_faire_a_paris' retrieved from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T23:03:00.080+0000] {logging_mixin.py:190} INFO - [2025-02-04T23:03:00.080+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T23:03:00.093+0000] {logging_mixin.py:190} INFO - [2025-02-04T23:03:00.093+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_que_faire_a_paris to 2025-02-04 00:00:00+00:00, run_after=2025-02-05 00:00:00+00:00
+[2025-02-04T23:03:00.107+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_que_faire_a_paris.py took 0.362 seconds
+[2025-02-04T23:03:30.472+0000] {processor.py:186} INFO - Started process (PID=689) to work on /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T23:03:30.473+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_que_faire_a_paris.py for tasks to queue
+[2025-02-04T23:03:30.475+0000] {logging_mixin.py:190} INFO - [2025-02-04T23:03:30.475+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T23:03:30.696+0000] {processor.py:925} INFO - DAG(s) 'etl_que_faire_a_paris' retrieved from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T23:03:30.710+0000] {logging_mixin.py:190} INFO - [2025-02-04T23:03:30.710+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T23:03:30.724+0000] {logging_mixin.py:190} INFO - [2025-02-04T23:03:30.724+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_que_faire_a_paris to 2025-02-04 00:00:00+00:00, run_after=2025-02-05 00:00:00+00:00
+[2025-02-04T23:03:30.741+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_que_faire_a_paris.py took 0.276 seconds
+[2025-02-04T23:04:01.115+0000] {processor.py:186} INFO - Started process (PID=697) to work on /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T23:04:01.117+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_que_faire_a_paris.py for tasks to queue
+[2025-02-04T23:04:01.120+0000] {logging_mixin.py:190} INFO - [2025-02-04T23:04:01.119+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T23:04:01.327+0000] {processor.py:925} INFO - DAG(s) 'etl_que_faire_a_paris' retrieved from /opt/airflow/dags/dag_que_faire_a_paris.py
+[2025-02-04T23:04:01.341+0000] {logging_mixin.py:190} INFO - [2025-02-04T23:04:01.341+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-04T23:04:01.353+0000] {logging_mixin.py:190} INFO - [2025-02-04T23:04:01.353+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_que_faire_a_paris to 2025-02-04 00:00:00+00:00, run_after=2025-02-05 00:00:00+00:00
+[2025-02-04T23:04:01.369+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_que_faire_a_paris.py took 0.261 seconds

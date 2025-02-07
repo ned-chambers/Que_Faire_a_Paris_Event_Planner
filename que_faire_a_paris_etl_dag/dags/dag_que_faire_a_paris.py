@@ -93,11 +93,42 @@ def transform_data():
         else:
             df["Date de mise à jour"].fillna(today, inplace=True)
 
+        # Convert the columns to datetime format and extract Date and Time separately
+        for col in ["Date de début", "Date de fin", "Date de mise à jour"]:
+            # Convert to datetime, handling timezone issues and invalid formats
+            df[col] = pd.to_datetime(df[col], errors='coerce', utc=True)
+            
+            # Identify rows where conversion failed
+            if df[col].isna().sum() > 0:
+                logging.warning(f"⚠️ Warning: {df[col].isna().sum()} invalid datetime values found in '{col}'")
+
+            # Extract Date and Time
+            df[f"{col} (Date)"] = df[col].dt.date
+            df[f"{col} (Time)"] = df[col].dt.time
+
         # Standardize accessibility information
-        df['Accès PMR'] = df['Accès PMR'].apply(lambda x: 'Accès PMR' if x == 1 else "Pas d'accès PMR")
-        df['Accès mal voyant'] = df['Accès mal voyant'].apply(lambda x: 'Accès mal voyant' if x == 1 else "Pas d'accès mal voyant")
-        df['Accès mal entendant'] = df['Accès mal entendant'].apply(lambda x: 'Accès mal entendant' if x == 1 else "Pas d'accès mal entendant")
-        df['Accessibilité'] = df['Accès PMR'] + ' – ' + df['Accès mal voyant'] + ' – ' + df['Accès mal entendant']
+        df['Accès PMR'] = df['Accès PMR'].apply(lambda x: 'Oui' if x == 1 else "Aucune information")
+        df['Accès mal voyant'] = df['Accès mal voyant'].apply(lambda x: 'Oui' if x == 1 else "Aucune information")
+        df['Accès mal entendant'] = df['Accès mal entendant'].apply(lambda x: 'Oui' if x == 1 else "Aucune information")
+
+        # Create "Accessibilité" column
+        def format_accessibility(row):
+            access_list = []
+            
+            if row['Accès PMR'] == "Oui":
+                access_list.append("personnes à mobilité réduite")
+            if row['Accès mal voyant'] == "Oui":
+                access_list.append("mal voyant")
+            if row['Accès mal entendant'] == "Oui":
+                access_list.append("mal entendant")
+            
+            # Only add "Accès" if there are accessibility features
+            if access_list:
+                return "Accès " + " + ".join(access_list)
+            else:
+                return "Aucune information"
+
+        df['Accessibilité'] = df.apply(format_accessibility, axis=1)
 
         # Clean postal codes
         def clean_code_postal(code):
@@ -105,11 +136,13 @@ def transform_data():
             code = re.sub(r'\s+', '', code)
             code = re.sub(r'\D+$', '', code)
             if len(code) == 4:
-                code = "0" + code
+                code = code + "0"
             if not re.match(r'^\d{5}$', code):
                 code = "75000"
             return code
         df["Code postal"] = df["Code postal"].apply(clean_code_postal)
+        # Convert "Code postal" to string
+        df["Code postal"] = df["Code postal"].astype(str)
 
         # Normalize city names
         def clean_ville(ville):
@@ -119,8 +152,20 @@ def transform_data():
             return ville.title()
         df["Ville"] = df["Ville"].apply(clean_ville)
 
+        # Split the "Coordonnées géographiques" column into Latitude and Longitude
+        df[['Latitude', 'Longitude']] = df['Coordonnées géographiques'].str.split(', ', expand=True)
+
+        # Convert to numeric (handles missing or corrupted values)
+        df['Latitude'] = pd.to_numeric(df['Latitude'], errors='coerce')
+        df['Longitude'] = pd.to_numeric(df['Longitude'], errors='coerce')
+
+        # Drop rows where Latitude or Longitude couldn't be converted
+        df = df.dropna(subset=['Latitude', 'Longitude'])
+
         # Convert pricing type to title case
         df["Type de prix"] = df["Type de prix"].astype(str).str.title()
+        # Change values to "Aucune information" if "Nan"
+        df["Type de prix"] = df["Type de prix"].replace("Nan", "Aucune information")
 
         # Save transformed CSV
         df.to_csv("/tmp/que_faire_a_paris_transformed.csv", index=False)

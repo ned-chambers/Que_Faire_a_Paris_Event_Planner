@@ -1,0 +1,22 @@
+[2025-02-06T08:32:59.751+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-06T08:32:59.761+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_que_faire_a_paris.load_data scheduled__2025-02-05T00:00:00+00:00 [queued]>
+[2025-02-06T08:32:59.766+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_que_faire_a_paris.load_data scheduled__2025-02-05T00:00:00+00:00 [queued]>
+[2025-02-06T08:32:59.767+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-02-06T08:32:59.776+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): load_data> on 2025-02-05 00:00:00+00:00
+[2025-02-06T08:32:59.781+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=3537) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-02-06T08:32:59.783+0000] {standard_task_runner.py:72} INFO - Started process 3539 to run task
+[2025-02-06T08:32:59.783+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'etl_que_faire_a_paris', 'load_data', 'scheduled__2025-02-05T00:00:00+00:00', '--job-id', '98', '--raw', '--subdir', 'DAGS_FOLDER/dag_que_faire_a_paris.py', '--cfg-path', '/tmp/tmpxcmdlmzy']
+[2025-02-06T08:32:59.784+0000] {standard_task_runner.py:105} INFO - Job 98: Subtask load_data
+[2025-02-06T08:32:59.817+0000] {task_command.py:467} INFO - Running <TaskInstance: etl_que_faire_a_paris.load_data scheduled__2025-02-05T00:00:00+00:00 [running]> on host b176106a6d6f
+[2025-02-06T08:32:59.961+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='etl_que_faire_a_paris' AIRFLOW_CTX_TASK_ID='load_data' AIRFLOW_CTX_EXECUTION_DATE='2025-02-05T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-02-05T00:00:00+00:00'
+[2025-02-06T08:32:59.962+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-02-06T08:32:59.973+0000] {base.py:84} INFO - Retrieving connection 'postgres_default'
+[2025-02-06T08:33:01.791+0000] {dag_que_faire_a_paris.py:180} INFO - ✅ Loading completed successfully!
+[2025-02-06T08:33:01.792+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-02-06T08:33:01.798+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-02-06T08:33:01.799+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=etl_que_faire_a_paris, task_id=load_data, run_id=scheduled__2025-02-05T00:00:00+00:00, execution_date=20250205T000000, start_date=20250206T083259, end_date=20250206T083301
+[2025-02-06T08:33:01.846+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-02-06T08:33:01.855+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-02-06T08:33:01.858+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
