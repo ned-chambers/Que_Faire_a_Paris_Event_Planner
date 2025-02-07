@@ -43,17 +43,17 @@ def update_google_sheet(data):
     credentials = Credentials.from_service_account_info(credentials_info, scopes=SCOPES)
     service = build("sheets", "v4", credentials=credentials)
 
-    # Clear existing sheet data
+    # Clear existing sheet data except the headers
     service.spreadsheets().values().clear(
         spreadsheetId=GOOGLE_SHEET_ID,
-        range="Sheet1!A:AB",  # Adjust range to fit the number of columns (28 in this case)
+        range="Sheet1!A2:AB",  # Start clearing from the second row
     ).execute()
 
-    # Write new data
+    # Write new data starting from the second row
     body = {"values": data}
     service.spreadsheets().values().update(
         spreadsheetId=GOOGLE_SHEET_ID,
-        range="Sheet1!A:AB",
+        range="Sheet1!A2:AB",  # Start updating from the second row
         valueInputOption="RAW",
         body=body,
     ).execute()
@@ -73,6 +73,3 @@ if __name__ == "__main__":
     print("Updating Google Sheets...")
     update_google_sheet(formatted_data)
     print("Google Sheets updated successfully!")
-
-    # Update Google Sheets
-    update_google_sheet(formatted_data)
