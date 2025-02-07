@@ -1,8 +1,9 @@
 name: Fetch PostgreSQL Data and Update Google Sheets
 
 on:
+  workflow_dispatch:  # Add this to enable manual triggers
   schedule:
-    - cron: "0 0 * * *"  # Runs daily at midnight UTC
+    - cron: "0 0 * * *"  # Runs daily
 
 jobs:
   run-script:
