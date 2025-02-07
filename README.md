@@ -33,7 +33,7 @@ The ETL process is orchestrated using **Apache Airflow** within a **Docker conta
 ---
 
 ## 🏗️ Developed By
-This project was created by **Ned Chambers** and **Jean-Baptiste Allombert** as part of their final project in the *Data Analyst Lead* program at **Jedha Bootcamp**.
+This project was created by **Ned Chambers** and **Jean-Baptiste Allombert** as part of their final project in the *Data Analyst Lead* program at **Jedha Bootcamp** in February 2025.
 
 ---
 
