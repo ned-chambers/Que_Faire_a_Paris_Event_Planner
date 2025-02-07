@@ -1,6 +1,6 @@
 # 📊 *Que Faire à Paris?* - Interactive outing planner dashboard
 
-## 📖 About this Project
+## 📖 About the Project
 *Que Faire à Paris?* is an interactive dashboard designed to help users explore and plan their outings in Paris.
 
 This tool combines a map of events, trend analyses, and interactive features to personalise the user experience.
@@ -32,3 +32,24 @@ The ETL process is orchestrated using **Apache Airflow** within a **Docker conta
 
 ---
 
+## 🏗️ Developed By
+This project was created by **Ned Chambers** and **Jean-Baptiste Allombert** as part of their final project in the *Data Analyst Lead* program at **Jedha Bootcamp**.
+
+---
+
+## 📊 Data Source
+The event data in this dashboard is provided by the Open Data platform of the City of Paris:  
+[https://opendata.paris.fr/explore/dataset/que-faire-a-paris-/](https://opendata.paris.fr/explore/dataset/que-faire-a-paris-/)
+
+Data is updated daily to ensure accuracy and freshness.
+
+---
+
+## ❤️ Thank You!
+We hope this dashboard enriches your Parisian experience and inspires you to discover all the amazing events the City of Light has to offer.
+
+---
+
+## ✉️ Feedback
+We would love to hear your suggestions or comments to improve this dashboard. Feel free to contact us at:  
+📧 **ned.chambers@gmail.com**
