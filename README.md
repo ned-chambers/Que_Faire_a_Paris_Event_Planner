@@ -1,4 +1,4 @@
-# 📊 *Que Faire à Paris?* - Interactive Outing Planner Dashboard
+# 📊 *Que Faire à Paris?* - Interactive outing planner dashboard
 
 ## 📖 About this Project
 *Que Faire à Paris?* is an interactive dashboard designed to help users explore and plan their outings in Paris.
