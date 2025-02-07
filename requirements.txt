@@ -1,5 +1,5 @@
-echo "psycopg2
+psycopg2
 google-api-python-client
 google-auth
 google-auth-oauthlib
-google-auth-httplib2" > requirements.txt
+google-auth-httplib2
