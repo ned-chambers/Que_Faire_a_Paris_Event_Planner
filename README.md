@@ -10,7 +10,7 @@ Our goal is to simplify cultural exploration in Paris by providing an accessible
 *View the project on Tableau Public*: [Que Faire à Paris - Tableau Public](https://public.tableau.com/app/profile/ned.chambers/viz/que_faire_a_paris_dashboard_public/QuefaireParis)
 
 
-*N.B. Following significant changes in the data structure of the source file on the Paris Open Data platform, the data pipeline is currently non-functional. We are looking to rebuild and adapt the ETL pipeline accordingly in the future. For now, please consult the static Tableau Public version of the dashboard to see its original functionality and design.*
+*Update: Following significant changes in the data structure of the source file on the Paris Open Data platform in March 2025, the data pipeline is currently non-functional. We are looking to rebuild and adapt the ETL pipeline accordingly in the future. For now, please consult the static Tableau Public version of the dashboard via the link above to experience a snapshot of the dashboard's original functionality and design.*
 
 ---
 
@@ -35,7 +35,7 @@ The project leverages a robust ETL (Extract, Transform, Load) pipeline, culminat
 
 The ETL process is orchestrated using **Apache Airflow** within a **Docker container**. For details on each step, refer to the `dag_que_faire_a_paris.py` script.
 
-**Note on the Tableau Public version**: *As Tableau Public does not support PostgreSQL database connectors, the Tableau Public version of the dashboard uses a simplified but functionally similar version of the ETL processes using a Google Sheets connection with GitHub Actions for ETL orchestration and daily refresh.*
+**Note on the Tableau Public version**: *As Tableau Public does not support PostgreSQL database connectors, the Tableau Public version of the dashboard uses a simplified but functionally similar version of the ETL process using a Google Sheets connection with GitHub Actions for ETL orchestration and daily refresh.*
 
 ---
 
